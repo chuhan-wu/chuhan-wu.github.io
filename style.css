@@ -932,7 +932,7 @@ li.center-footer-content
     .re-desc{
       font-size: 16px;
       width: 78%;
-      float:left;
+      float:right;
       margin-top:-70px;
 
     }
@@ -1028,7 +1028,7 @@ li.center-footer-content
     .re-desc{
       font-size: 16px;
       width: 78%;
-      float:left;
+      float:right;
       margin-top:-70px;
 
     }
@@ -1071,7 +1071,7 @@ li.center-footer-content
     .re-desc{
       font-size: 16px;
       width: 78%;
-      float:left;
+      float:right;
       margin-top:-70px;
 
     }
@@ -1187,7 +1187,7 @@ li.center-footer-content
     .re-desc{
       font-size: 16px;
       width: 78%;
-      float:left;
+      float:right;
       margin-top:-70px;
 
     }
@@ -1219,7 +1219,7 @@ li.center-footer-content
     .re-desc{
       font-size: 16px;
       width: 100%;
-      /* float:left; */
+       float:left; right;
       margin-top:-50px;
 
     }
