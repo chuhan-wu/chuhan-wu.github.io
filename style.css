@@ -1628,13 +1628,13 @@ li.center-footer-content
 .typeBG{
   width:100%;
   height:400px;
-  background-color: #000;
+  background-color: #fff;
   padding-left: 20px;
 
 }
 .typeText{
 
-  color: #fff;
+  color: #000;
   width:60%;
   font-family: Courier New;
   line-height: 20px;
@@ -1642,12 +1642,12 @@ li.center-footer-content
   clear: both;
 }
 .typewriterStatic{
-  color: #fff;
+  color: #000;
   font-family: Courier New;
   font-weight: bold;
   font-size: 48px;
   text-align:left;
-  padding-top: 130px;
+  padding-top: 120px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* white-space: nowrap; /* Keeps the content on a single line */ */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -1655,7 +1655,7 @@ li.center-footer-content
 }
 .typewriter {
 
-  color: #fff;
+  color: #000;
   font-family: Courier New;
   font-weight: bold;
   font-size: 48px;
@@ -1681,7 +1681,7 @@ li.center-footer-content
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #fff}
+  50% { border-color: #000}
 
 
 }
