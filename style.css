@@ -1,6 +1,4 @@
 
-
-
 html
 {
     overflow: hidden;
@@ -258,9 +256,11 @@ ul.slides li img
 }
 
 .description{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   margin-top: 20px;
+  float:right;
+  text-align: justify;
 
 
 }
@@ -970,6 +970,15 @@ li.center-footer-content
         position: relative;
         margin-bottom: 37px;
     }
+    .three_fourth{
+
+      margin-right: 0%;
+      float: right;
+      position: relative;
+      margin-bottom: 37px;
+    }
+
+
 
     .one_half{
         width: 46%;
