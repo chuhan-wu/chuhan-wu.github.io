@@ -167,7 +167,7 @@ input, textarea, select
 
 .content-1330
 {
-    max-width: 1230px;
+    max-width: 1330px;
 }
 
 .content-1530
@@ -933,6 +933,13 @@ li.center-footer-content
 /* END FOOTER */
 
 /* RESPONSIVE PART */
+@media screen and (min-width:1601px){
+  .content-1330
+  {
+      max-width: 1200px;
+  }
+
+}
 
 @media screen and (max-width: 1600px) {
 
@@ -1204,7 +1211,7 @@ li.center-footer-content
 
     .content-1330, .grid-item.p_one
     {
-        width: 860px;
+        width: 960px;
     }
 
     .re-desc{
