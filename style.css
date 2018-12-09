@@ -1,3 +1,6 @@
+
+
+
 html
 {
     overflow: hidden;
@@ -7,8 +10,8 @@ body
 {
     background-color: #E2E0E0;
     font-family: Garamond, Georgia, Helvetica, sans-serif, Arial;  /*1201 change font */
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 35px;
     font-weight: 400;
     color: #191919;
     letter-spacing: 0px;
@@ -164,7 +167,7 @@ input, textarea, select
 
 .content-1330
 {
-    max-width: 1330px;
+    max-width: 1230px;
 }
 
 .content-1530
@@ -254,6 +257,13 @@ ul.slides li img
     line-height: 40px;
 }
 
+.description{
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 20px;
+
+
+}
 /* BLOG */
 
 .blog-top-content.page-desc
@@ -1182,7 +1192,7 @@ li.center-footer-content
 
     .content-1330, .grid-item.p_one
     {
-        width: 960px;
+        width: 860px;
     }
 
     .re-desc{
