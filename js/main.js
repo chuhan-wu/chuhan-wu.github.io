@@ -49,6 +49,7 @@ jQuery(document).ready(function () {
         });
 
         // bind filter button click
+
         jQuery('.filters-button-group').on('click', '.button', function () {
             var filterValue = jQuery(this).attr('data-filter');
             grid.isotope({filter: filterValue});
@@ -118,6 +119,8 @@ jQuery(document).ready(function () {
 
 
 jQuery(window).load(function () {
+//Select the portfolio for showing
+  jQuery('.grid').isotope({ filter: '.fp' });
 
 //Fix for header menu
     jQuery('.header-search').css('margin-top', 0 - jQuery('.header-search').innerHeight());
@@ -269,7 +272,7 @@ jQuery(window).resize(function () {
         jQuery('.header-search').css('margin-top', 0 - jQuery('.header-search').innerHeight());
     }
 
-    //Fix for WP menu admin bar 
+    //Fix for WP menu admin bar
     jQuery('#main-menu').css('margin-top', jQuery('#wpadminbar').height());
 
 
