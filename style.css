@@ -1,4 +1,6 @@
 
+
+
 html
 {
     overflow: hidden;
@@ -982,6 +984,7 @@ li.center-footer-content
 
     .one_half{
         width: 46%;
+        text-align: justify;
     }
     .one_third{
         width: 28%;
