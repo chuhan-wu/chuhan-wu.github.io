@@ -1513,7 +1513,9 @@ li.center-footer-content
 
       display: none;
     }
-
+   .typeBG{
+     display: none;
+   }
 }
 
 /* slideshow */
@@ -1618,4 +1620,68 @@ li.center-footer-content
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+/* typewriter */
+/* DEMO-SPECIFIC STYLES */
+.typeBG{
+  width:100%;
+  height:400px;
+  background-color: #000;
+  padding-left: 20px;
+
+}
+.typeText{
+
+  color: #fff;
+  width:60%;
+  font-family: Courier New;
+  line-height: 20px;
+  padding-top: 20px;
+  clear: both;
+}
+.typewriterStatic{
+  color: #fff;
+  font-family: Courier New;
+  font-weight: bold;
+  font-size: 48px;
+  text-align:left;
+  padding-top: 130px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* white-space: nowrap; /* Keeps the content on a single line */ */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+}
+.typewriter {
+
+  color: #fff;
+  font-family: Courier New;
+  font-weight: bold;
+  font-size: 48px;
+  text-align:left;
+  float: left;
+  line-height: 50px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .07em solid #fff; /* The typwriter cursor */
+  white-space:nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 2.5s steps(24) normal, blink-caret .5s steps(24) infinite normal;
+  width: 500px;
+  height:50px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff}
+
+
 }
