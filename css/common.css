@@ -265,7 +265,7 @@ a.button:hover
 }
 h1,h2,h3,h4,h5,h6
 {
-    padding: 20px 0;
+    padding: 5px 0 0 0;
 }
 h1
 {
@@ -292,7 +292,10 @@ h5
 }
 h6
 {
-    font-size: 26px;
+  font-weight: normal;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.54);
 }
 em
 {
@@ -337,12 +340,37 @@ sub
 
 /* COLUMNS */
 
-.one,  .one_half,  .one_third,  .two_third,  .three_fourth,
+.one,    .one_third,  .two_third,
 .one_fourth{
     margin-right: 200px;
     float: left;
     position: relative;
     margin-bottom: 30px;
+}
+
+.one_half{
+
+  margin-right: 50px !important;
+  float: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.one_half_center{
+  width: 48%;
+  margin-right: 50px !important;
+  
+  position: relative;
+  margin-bottom: 30px;
+
+}
+
+.three_fourth{
+
+  float: left;
+  position: relative;
+  margin-bottom: 10px;
+
 }
 
 .two_third_right{
@@ -365,7 +393,7 @@ sub
 
 }
 .one_half{
-    width: 565px;
+    width: 48%;
 }
 .one_third{
     width: 310px;
